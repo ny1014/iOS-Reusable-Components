@@ -54,11 +54,11 @@ public struct JapaneseBusinessCardView: View {
                     Text(email)
                 }
 
-                HStack {
-                    Image(systemName: "mappin.and.ellipse")
-                        .foregroundColor(.gray)
-                    Text(address)
-                }
+//                HStack {
+//                    Image(systemName: "mappin.and.ellipse")
+//                        .foregroundColor(.gray)
+//                    Text(address)
+//                }
             }
             .font(.system(size: 12))
             .foregroundColor(.black)
